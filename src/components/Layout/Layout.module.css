@@ -1,0 +1,48 @@
+.Wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6vh min-content 30vh;
+    grid-template-areas: "h h"
+                         "s s"
+                         "f f";
+    row-gap: 10px;
+}
+
+.Wrapper header {
+    grid-area: h;
+    background-color: #2A2F34;
+}
+
+.Wrapper section {
+    grid-area: s;
+    display: flex;
+}
+
+.ContentWrapper {
+    min-width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.MainContent {
+    color: white;
+    background-color: #2E3338;
+    max-width: 45%;
+    margin-left: auto;
+    margin-right: 30px;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.Sidebar{
+    color: white;
+    background-color: #2E3338;
+    min-width: 25%;
+    margin-right: auto;
+}
+
+.Wrapper footer{
+    grid-area: f;
+    background-color: cornflowerblue;
+}

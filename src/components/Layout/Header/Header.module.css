@@ -1,0 +1,27 @@
+.Wrapper{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    height: 100%;
+    max-width: 69%;
+}
+
+.NavLinks {
+    display: flex;
+}
+
+.NavLinks span{
+    font-size: 14px;
+    color: rgb(151, 148, 147);
+    max-height: 100%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+}
+
+.Items{
+    display: flex;
+    justify-content: space-between;
+}
