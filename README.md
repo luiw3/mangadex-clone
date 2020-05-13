@@ -3,8 +3,8 @@
 Clone de layout do [MangaDex](https://mangadex.org) utilizando React.
 
 
-### `Já feito`
-- Layout básico
+### `Fazendo`
+- Header (70%)
 
 ### `Próximos passos`
 - Terminar componentes para manga especifico;
@@ -12,16 +12,22 @@ Clone de layout do [MangaDex](https://mangadex.org) utilizando React.
 - Criar método de cadastro e autenticação com [Firebase](https://firebase.google.com);
 - Alternar entre modo noturno e modo claro;
 
+### `Feito`
+- Layout base
+
 
 ## EN/US
 
 [MangaDex](https://mangadex.org) Layout clone with React.
 
-### `Done`
-- Basic Layout
+### `In progress`
+- Header (70%)
 
 ### `To-do`
 - Specific manga components;
 - Integrate [JikanAPI](https://jikan.moe);
 - Create register and authentication method with [Firebase](https://firebase.google.com);
 - Switch between night and light mode;
+
+### `Done`
+- Base layout

@@ -1,0 +1,33 @@
+.Form{
+    margin-right: 10px;
+    min-height: min-content;
+    display: flex;
+    align-items: center;
+}
+.Form input{
+    height: 36px;
+    border: 1px solid black;
+    padding-left: 9px;
+    background-color: #25282B;
+    color: rgb(151, 148, 147);
+
+}
+
+.Form select{
+    height: 40px;
+    border: 1px solid black;
+    padding-left: 9px;
+    background-color: #25282B;
+    color: rgb(151, 148, 147);
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+.SearchButton{
+    text-align: center;
+    width: 1.25em;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+}

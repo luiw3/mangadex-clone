@@ -4,24 +4,45 @@
     justify-content: space-between;
     color: white;
     height: 100%;
-    max-width: 69%;
+    width: 100%;
+    max-width: 960px;
 }
 
 .NavLinks {
     display: flex;
+    align-items: center;
 }
 
 .NavLinks span{
     font-size: 14px;
     color: rgb(151, 148, 147);
     max-height: 100%;
-    margin-right: 10px;
+    margin-right: 0rem;
     display: flex;
     align-items: center;
     padding: 0 12px;
+    font-weight: 500;
+}
+
+.NavLinks p {
+    display: none;
+}
+@media(min-width: 1450px) {
+    .NavLinks p {
+        display: block;
+    }
 }
 
 .Items{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    color: rgb(151, 148, 147);
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    font-size: 17px;
 }

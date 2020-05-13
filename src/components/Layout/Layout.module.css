@@ -1,7 +1,7 @@
 .Wrapper {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 6vh min-content 30vh;
+    grid-template-rows: 60px min-content 30vh;
     grid-template-areas: "h h"
                          "s s"
                          "f f";
@@ -15,7 +15,6 @@
 
 .Wrapper section {
     grid-area: s;
-    display: flex;
 }
 
 .ContentWrapper {
@@ -38,7 +37,7 @@
 .Sidebar{
     color: white;
     background-color: #2E3338;
-    min-width: 25%;
+    min-width: 23%;
     margin-right: auto;
 }
 
