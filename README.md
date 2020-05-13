@@ -4,7 +4,7 @@ Clone de layout do [MangaDex](https://mangadex.org) utilizando React.
 
 
 ### `Fazendo`
-- Header (70%)
+- Header (80%) (Dropdown adicionado)
 
 ### `Próximos passos`
 - Terminar componentes para manga especifico;
@@ -21,7 +21,7 @@ Clone de layout do [MangaDex](https://mangadex.org) utilizando React.
 [MangaDex](https://mangadex.org) Layout clone with React.
 
 ### `In progress`
-- Header (70%)
+- Header (80%) (Dropdown menus added)
 
 ### `To-do`
 - Specific manga components;
